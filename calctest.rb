@@ -1,17 +1,26 @@
 
 
 #testing begins
-def divide_by_0error()
+
+def user_input_test_add()
 	v1 = gets.chomp.to_i
 	v2 = gets.chomp.to_i
-
-	if v2 == 0
-		puts "cant divide by zero"
-	else
-		puts false
-	end
+	vtotal = v1.to_i + v2.to_i
+	puts "#{vtotal}"
 end
-divide_by_0error()
+user_input_test_add()
+
+# def divide_by_0error()
+# 	v1 = gets.chomp.to_i
+# 	v2 = gets.chomp.to_i
+
+# 	if v2 == 0
+# 		puts true
+# 	else
+# 		puts false
+# 	end
+# end
+# divide_by_0error()
 
 # def value_can_add_another_value()
 # 	v1 = 1
