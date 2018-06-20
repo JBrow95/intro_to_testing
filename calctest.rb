@@ -2,36 +2,13 @@
 
 #testing begins
 
-#array test
 
-calc_array = ["1","2","3"]
-	response = gets.chomp
-
-	if response == "1"
-		puts true
-	elsif response == "2"
-		puts true
-	elsif response == "3"
-		puts true
-	else 
-		puts false
-	end	
-
-#user input test
-
-def user_input_test_add()
-	v1 = gets.chomp.to_i
-	v2 = gets.chomp.to_i
-	vtotal = v1.to_i + v2.to_i
-	puts "#{vtotal}"
-end
-user_input_test_add()
 
 #zerodivideError test
 
 def divide_by_0error()
-	v1 = gets.chomp.to_i
-	v2 = gets.chomp.to_i
+	v1 = 2
+	v2 = 0
 
 	if v2 == 0
 		puts true
@@ -101,7 +78,7 @@ def value_can_divide_another_value()
 end
 value_can_divide_another_value()
 
-#int
+#int test
 
 def int_test(int1, int2)
 	if int1 == int2
